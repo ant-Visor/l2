@@ -54,7 +54,7 @@ Include services/*.conf
 Host *
     ServerAliveInterval 60
     ServerAliveCountMax 3
-EOF 
+EOF
     echo "✅ Создан $HOME/.ssh/config"
   fi
 
