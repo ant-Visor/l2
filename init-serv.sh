@@ -13,7 +13,7 @@ fi
 # ================================================================ #
 setup_apt() {
   sudo apt-get update -q
-  sudo apt-get install -q -y vim git curl
+  sudo apt-get install -q -y vim git curl bash-completion
 
   if ! command -v docker >/dev/null 2>&1; then
     curl -fsSL https://get.docker.com | sudo bash
