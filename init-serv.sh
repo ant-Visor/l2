@@ -71,7 +71,7 @@ EOF
   # Итоговые инструкции
   echo ""
   echo " ___________________________________________"
-  echo "|  🔑 ПУБЛИЧНЫЙ КЛЮЧ ДЛЯ GITHUB DEPLOY KEY |"
+  echo "|  🔑 ПУБЛИЧНЫЙ КЛЮЧ ДЛЯ GITHUB DEPLOY KEY  |"
   echo "|___________________________________________|"
   echo "Добавьте на:"
   echo "https://github.com/${GITHUB_USERNAME}/${PROJ}/settings/keys/new"
@@ -91,7 +91,7 @@ EOF
   echo ""
   echo " ___________________________________________"
   echo "|                                           |"
-  echo "|         ✅ Настройка завершена!           |"
+  echo "|         ✅ Настройка завершена!            |"
   echo "|___________________________________________|"
   echo "  Остальные GitHub Secrets:"
   echo "    SERVER_HOST = $(wget -qO- icanhazip.com 2>/dev/null)"
