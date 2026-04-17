@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Использование:
-# wget -qO "init-serv.sh" "https://github.com/ant-Visor/l2" && bash init-serv.sh 
+# wget -qO "init-serv.sh" "https://raw.githubusercontent.com/ant-Visor/l2/refs/heads/main/init-serv.sh" && bash init-serv.sh
 
 GITHUB_USERNAME="ant-Visor"
 PROJ="legasy" # репозиторий для которого настраиваем
